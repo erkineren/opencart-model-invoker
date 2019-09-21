@@ -21,5 +21,5 @@ composer install
 - Enter your opencart informations
 
 ##### You're ready to go
-- Run `example/generateModelCodes.php` to auto-generate model files (this file saved to `config/autoload/models.generated.php`)
+- Run `example/generateModelCodes.php` to auto-generate models file (this file saved to `config/autoload/models.generated.php`)
 - Run example in `/example` folder
