@@ -32,9 +32,9 @@ require __DIR__ . '/vendor/autoload.php';
 $config = include_once __DIR__ . '/config.php';
 
 $invoker = new ModelInvoker((new ClientBuilder())
-    ->setBaseUrl($config['v2302']['baseUrl'])
-    ->setUsername($config['v2302']['adminUsername'])
-    ->setPassword($config['v2302']['adminPassword'])
+    ->setBaseUrl($config['v3037']['baseUrl'])
+    ->setUsername($config['v3037']['adminUsername'])
+    ->setPassword($config['v3037']['adminPassword'])
     ->build());
 
 $models = new \OpencartApi\ModelContainer\v3037\OpencartModelContainer($invoker);
