@@ -32,7 +32,7 @@ class ClientBuilder
      */
     public function setBaseUrl($baseUrl)
     {
-        $this->baseUrl = $baseUrl;
+        $this->baseUrl = rtrim($baseUrl, '/') . '/';
         return $this;
     }
 

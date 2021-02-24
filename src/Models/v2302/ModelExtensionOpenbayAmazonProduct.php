@@ -1,0 +1,29 @@
+<?php
+
+namespace OpencartApi\Models\v2302;
+
+
+use OpencartApi\Http\ApiResponse;
+use OpencartApi\Base\BaseModel;
+
+
+/**
+ * @method ApiResponse setStatus($insertion_id, $status_string)
+ * @method ApiResponse getProductRows($insertion_id)
+ * @method ApiResponse getProduct($insertion_id)
+ * @method ApiResponse linkItems(array $data)
+ * @method ApiResponse insertError($data)
+ * @method ApiResponse deleteErrors($insertion_id)
+ * @method ApiResponse setSubmitError($insertion_id, $message)
+ * @method ApiResponse linkProduct($amazon_sku, $product_id, $var = '')
+ * @method ApiResponse getProductQuantity($product_id, $var = '')
+ * @method ApiResponse updateSearch($results)
+ * @method ApiResponse addListingReport($data)
+ * @method ApiResponse removeListingReportLock($marketplace)
+ */
+class ModelExtensionOpenbayAmazonProduct extends BaseModel
+{
+    const MODEL_NAME = 'extension/openbay/amazon_product';
+    
+}
+

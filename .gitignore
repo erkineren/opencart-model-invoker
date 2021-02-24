@@ -1,4 +1,4 @@
 /.idea/
 /vendor/
 /logs/*
-.env
+/example/config.php

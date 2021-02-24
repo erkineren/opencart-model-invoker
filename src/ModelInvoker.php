@@ -10,7 +10,6 @@ use OpencartApi\Http\ApiResponse;
 /**
  * Class OpencartApi
  * @package OpencartApi
- * @method  getAccountModule()
  */
 class ModelInvoker
 {
@@ -26,6 +25,15 @@ class ModelInvoker
     public function __construct($client)
     {
         $this->client = $client;
+    }
+
+    /**
+     * @return ApiResponse
+     */
+    public function getInfo()
+    {
+        $response = $this->client->get('invoker/info');
+        return new ApiResponse($response);
     }
 
     /**
@@ -101,15 +109,10 @@ class ModelInvoker
         return new ApiResponse($response);
     }
 
-    /**
-     * config/autoload/models.generated.php dosyasındaki kodları oluşturur
-     *
-     * @return string
-     */
-    public function generateAllModelCodes()
+    public function generateAllModelMetaData()
     {
-        $response = $this->client->get('invoker/generateAllModelsCode');
-        return $response->getBody()->getContents();
+        $response = $this->client->get('invoker/generateAllModelMetaData');
+        return new ApiResponse($response);
     }
 
 }

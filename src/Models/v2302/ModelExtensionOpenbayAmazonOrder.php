@@ -1,0 +1,33 @@
+<?php
+
+namespace OpencartApi\Models\v2302;
+
+
+use OpencartApi\Http\ApiResponse;
+use OpencartApi\Base\BaseModel;
+
+
+/**
+ * @method ApiResponse acknowledgeOrder($order_id)
+ * @method ApiResponse getProductId($sku)
+ * @method ApiResponse getProductVar($sku)
+ * @method ApiResponse decreaseProductQuantity($product_id, $delta, $var = '')
+ * @method ApiResponse getMappedStatus($amazon_status)
+ * @method ApiResponse getCountryName($country_code)
+ * @method ApiResponse getCountryId($country_code)
+ * @method ApiResponse getZoneId($zone_name)
+ * @method ApiResponse updateOrderStatus($order_id, $status_id)
+ * @method ApiResponse addAmazonOrder($order_id, $amazon_order_id)
+ * @method ApiResponse addAmazonOrderProducts($order_id, $data)
+ * @method ApiResponse getOrderId($amazon_order_id)
+ * @method ApiResponse getOrderStatus($order_id)
+ * @method ApiResponse getAmazonOrderId($order_id)
+ * @method ApiResponse getProductOptionsByVar($product_var)
+ * @method ApiResponse addOrderHistory($order_id)
+ */
+class ModelExtensionOpenbayAmazonOrder extends BaseModel
+{
+    const MODEL_NAME = 'extension/openbay/amazon_order';
+    
+}
+
