@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionFraudIp extends BaseModel
 {
     const MODEL_NAME = 'extension/fraud/ip';
-    
+    const IS_ADMIN = true;
 }
 

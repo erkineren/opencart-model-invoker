@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionOpenbayAmazonListing extends BaseModel
 {
     const MODEL_NAME = 'extension/openbay/amazon_listing';
-    
+    const IS_ADMIN = true;
 }
 

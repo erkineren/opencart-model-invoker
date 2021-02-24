@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelLocalisationLanguage extends BaseModel
 {
     const MODEL_NAME = 'localisation/language';
-    
+    const IS_ADMIN = true;
 }
 

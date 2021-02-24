@@ -18,6 +18,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelReportAffiliate extends BaseModel
 {
     const MODEL_NAME = 'report/affiliate';
-    
+    const IS_ADMIN = true;
 }
 

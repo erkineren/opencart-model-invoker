@@ -23,6 +23,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentFirstdata extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/firstdata';
-    
+    const IS_ADMIN = true;
 }
 

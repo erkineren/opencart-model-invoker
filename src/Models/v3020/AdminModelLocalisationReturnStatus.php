@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelLocalisationReturnStatus extends BaseModel
 {
     const MODEL_NAME = 'localisation/return_status';
-    
+    const IS_ADMIN = true;
 }
 

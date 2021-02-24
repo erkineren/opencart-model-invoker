@@ -23,6 +23,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelCustomerCustomField extends BaseModel
 {
     const MODEL_NAME = 'customer/custom_field';
-    
+    const IS_ADMIN = true;
 }
 

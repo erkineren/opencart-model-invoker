@@ -13,6 +13,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionDashboardActivity extends BaseModel
 {
     const MODEL_NAME = 'extension/dashboard/activity';
-    
+    const IS_ADMIN = true;
 }
 

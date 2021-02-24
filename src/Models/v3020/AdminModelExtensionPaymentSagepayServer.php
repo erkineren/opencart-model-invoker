@@ -26,6 +26,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentSagepayServer extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/sagepay_server';
-    
+    const IS_ADMIN = true;
 }
 

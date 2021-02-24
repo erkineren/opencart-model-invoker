@@ -16,6 +16,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionFraudFraudlabspro extends BaseModel
 {
     const MODEL_NAME = 'extension/fraud/fraudlabspro';
-    
+    const IS_ADMIN = true;
 }
 

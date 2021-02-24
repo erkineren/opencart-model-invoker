@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelDesignLayout extends BaseModel
 {
     const MODEL_NAME = 'design/layout';
-    
+    const IS_ADMIN = true;
 }
 

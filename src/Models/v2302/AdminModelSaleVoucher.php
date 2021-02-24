@@ -23,6 +23,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelSaleVoucher extends BaseModel
 {
     const MODEL_NAME = 'sale/voucher';
-    
+    const IS_ADMIN = true;
 }
 

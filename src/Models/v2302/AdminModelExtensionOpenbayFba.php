@@ -16,6 +16,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionOpenbayFba extends BaseModel
 {
     const MODEL_NAME = 'extension/openbay/fba';
-    
+    const IS_ADMIN = true;
 }
 

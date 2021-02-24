@@ -28,6 +28,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentSecuretradingWs extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/securetrading_ws';
-    
+    const IS_ADMIN = true;
 }
 

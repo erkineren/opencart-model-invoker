@@ -25,6 +25,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentGlobalpay extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/globalpay';
-    
+    const IS_ADMIN = true;
 }
 

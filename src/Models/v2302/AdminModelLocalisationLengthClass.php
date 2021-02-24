@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelLocalisationLengthClass extends BaseModel
 {
     const MODEL_NAME = 'localisation/length_class';
-    
+    const IS_ADMIN = true;
 }
 

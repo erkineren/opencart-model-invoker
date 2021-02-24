@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelCustomerCustomerGroup extends BaseModel
 {
     const MODEL_NAME = 'customer/customer_group';
-    
+    const IS_ADMIN = true;
 }
 

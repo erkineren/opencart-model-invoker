@@ -27,6 +27,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentEway extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/eway';
-    
+    const IS_ADMIN = true;
 }
 

@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelSaleVoucherTheme extends BaseModel
 {
     const MODEL_NAME = 'sale/voucher_theme';
-    
+    const IS_ADMIN = true;
 }
 

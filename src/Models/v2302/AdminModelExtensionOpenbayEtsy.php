@@ -16,6 +16,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionOpenbayEtsy extends BaseModel
 {
     const MODEL_NAME = 'extension/openbay/etsy';
-    
+    const IS_ADMIN = true;
 }
 

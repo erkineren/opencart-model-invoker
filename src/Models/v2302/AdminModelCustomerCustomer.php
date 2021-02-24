@@ -48,6 +48,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelCustomerCustomer extends BaseModel
 {
     const MODEL_NAME = 'customer/customer';
-    
+    const IS_ADMIN = true;
 }
 

@@ -25,6 +25,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentRealexRemote extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/realex_remote';
-    
+    const IS_ADMIN = true;
 }
 

@@ -14,6 +14,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionReportCustomerTransaction extends BaseModel
 {
     const MODEL_NAME = 'extension/report/customer_transaction';
-    
+    const IS_ADMIN = true;
 }
 

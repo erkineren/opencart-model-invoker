@@ -27,6 +27,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentSecuretradingPp extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/securetrading_pp';
-    
+    const IS_ADMIN = true;
 }
 

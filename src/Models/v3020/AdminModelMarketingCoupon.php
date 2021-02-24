@@ -23,6 +23,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelMarketingCoupon extends BaseModel
 {
     const MODEL_NAME = 'marketing/coupon';
-    
+    const IS_ADMIN = true;
 }
 

@@ -18,6 +18,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelLocalisationLocation extends BaseModel
 {
     const MODEL_NAME = 'localisation/location';
-    
+    const IS_ADMIN = true;
 }
 

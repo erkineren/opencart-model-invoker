@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelLocalisationReturnReason extends BaseModel
 {
     const MODEL_NAME = 'localisation/return_reason';
-    
+    const IS_ADMIN = true;
 }
 

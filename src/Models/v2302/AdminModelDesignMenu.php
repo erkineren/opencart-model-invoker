@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelDesignMenu extends BaseModel
 {
     const MODEL_NAME = 'design/menu';
-    
+    const IS_ADMIN = true;
 }
 

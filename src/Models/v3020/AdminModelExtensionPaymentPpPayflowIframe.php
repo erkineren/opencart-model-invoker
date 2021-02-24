@@ -21,6 +21,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentPpPayflowIframe extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/pp_payflow_iframe';
-    
+    const IS_ADMIN = true;
 }
 

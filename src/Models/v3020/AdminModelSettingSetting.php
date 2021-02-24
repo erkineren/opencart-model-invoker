@@ -17,6 +17,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelSettingSetting extends BaseModel
 {
     const MODEL_NAME = 'setting/setting';
-    
+    const IS_ADMIN = true;
 }
 

@@ -13,6 +13,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelToolImage extends BaseModel
 {
     const MODEL_NAME = 'tool/image';
-    
+    const IS_ADMIN = true;
 }
 

@@ -15,6 +15,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelDesignTheme extends BaseModel
 {
     const MODEL_NAME = 'design/theme';
-    
+    const IS_ADMIN = true;
 }
 

@@ -22,6 +22,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentPilibaba extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/pilibaba';
-    
+    const IS_ADMIN = true;
 }
 

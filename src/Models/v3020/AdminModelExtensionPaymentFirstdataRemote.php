@@ -27,6 +27,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentFirstdataRemote extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/firstdata_remote';
-    
+    const IS_ADMIN = true;
 }
 

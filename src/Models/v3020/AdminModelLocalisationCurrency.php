@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelLocalisationCurrency extends BaseModel
 {
     const MODEL_NAME = 'localisation/currency';
-    
+    const IS_ADMIN = true;
 }
 

@@ -29,6 +29,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentKlarnaCheckout extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/klarna_checkout';
-    
+    const IS_ADMIN = true;
 }
 

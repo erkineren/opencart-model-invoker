@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionModule extends BaseModel
 {
     const MODEL_NAME = 'extension/module';
-    
+    const IS_ADMIN = true;
 }
 

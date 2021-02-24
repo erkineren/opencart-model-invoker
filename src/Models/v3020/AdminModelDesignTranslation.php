@@ -18,6 +18,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelDesignTranslation extends BaseModel
 {
     const MODEL_NAME = 'design/translation';
-    
+    const IS_ADMIN = true;
 }
 

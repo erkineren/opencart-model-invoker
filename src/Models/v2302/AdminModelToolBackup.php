@@ -15,6 +15,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelToolBackup extends BaseModel
 {
     const MODEL_NAME = 'tool/backup';
-    
+    const IS_ADMIN = true;
 }
 

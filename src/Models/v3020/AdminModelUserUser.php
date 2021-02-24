@@ -25,6 +25,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelUserUser extends BaseModel
 {
     const MODEL_NAME = 'user/user';
-    
+    const IS_ADMIN = true;
 }
 

@@ -15,6 +15,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelDesignLanguage extends BaseModel
 {
     const MODEL_NAME = 'design/language';
-    
+    const IS_ADMIN = true;
 }
 

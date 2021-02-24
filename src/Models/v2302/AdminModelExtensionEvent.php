@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionEvent extends BaseModel
 {
     const MODEL_NAME = 'extension/event';
-    
+    const IS_ADMIN = true;
 }
 

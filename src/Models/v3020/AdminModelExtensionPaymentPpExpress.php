@@ -35,6 +35,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentPpExpress extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/pp_express';
-    
+    const IS_ADMIN = true;
 }
 

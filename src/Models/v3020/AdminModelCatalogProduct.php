@@ -46,6 +46,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelCatalogProduct extends BaseModel
 {
     const MODEL_NAME = 'catalog/product';
-    
+    const IS_ADMIN = true;
 }
 

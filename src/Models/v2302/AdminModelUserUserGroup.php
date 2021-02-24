@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelUserUserGroup extends BaseModel
 {
     const MODEL_NAME = 'user/user_group';
-    
+    const IS_ADMIN = true;
 }
 

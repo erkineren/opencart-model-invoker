@@ -22,6 +22,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentPpBraintree extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/pp_braintree';
-    
+    const IS_ADMIN = true;
 }
 

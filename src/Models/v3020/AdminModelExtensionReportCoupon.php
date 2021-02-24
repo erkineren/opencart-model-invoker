@@ -14,6 +14,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionReportCoupon extends BaseModel
 {
     const MODEL_NAME = 'extension/report/coupon';
-    
+    const IS_ADMIN = true;
 }
 

@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelCustomerCustomerApproval extends BaseModel
 {
     const MODEL_NAME = 'customer/customer_approval';
-    
+    const IS_ADMIN = true;
 }
 

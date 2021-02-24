@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionModification extends BaseModel
 {
     const MODEL_NAME = 'extension/modification';
-    
+    const IS_ADMIN = true;
 }
 

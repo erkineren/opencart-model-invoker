@@ -18,6 +18,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelToolUpload extends BaseModel
 {
     const MODEL_NAME = 'tool/upload';
-    
+    const IS_ADMIN = true;
 }
 

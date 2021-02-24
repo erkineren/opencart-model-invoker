@@ -31,6 +31,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentAmazonLoginPay extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/amazon_login_pay';
-    
+    const IS_ADMIN = true;
 }
 

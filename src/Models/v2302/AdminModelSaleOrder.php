@@ -33,6 +33,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelSaleOrder extends BaseModel
 {
     const MODEL_NAME = 'sale/order';
-    
+    const IS_ADMIN = true;
 }
 

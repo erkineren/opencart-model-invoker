@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentSquareup extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/squareup';
-    
+    const IS_ADMIN = true;
 }
 

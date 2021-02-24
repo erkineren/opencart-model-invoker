@@ -24,6 +24,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionDashboardSale extends BaseModel
 {
     const MODEL_NAME = 'extension/dashboard/sale';
-    
+    const IS_ADMIN = true;
 }
 

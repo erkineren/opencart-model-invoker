@@ -24,6 +24,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelReportSale extends BaseModel
 {
     const MODEL_NAME = 'report/sale';
-    
+    const IS_ADMIN = true;
 }
 

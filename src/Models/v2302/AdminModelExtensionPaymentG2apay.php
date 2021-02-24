@@ -22,6 +22,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentG2apay extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/g2apay';
-    
+    const IS_ADMIN = true;
 }
 

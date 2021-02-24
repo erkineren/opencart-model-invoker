@@ -22,6 +22,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelSettingEvent extends BaseModel
 {
     const MODEL_NAME = 'setting/event';
-    
+    const IS_ADMIN = true;
 }
 

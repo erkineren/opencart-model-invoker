@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelLocalisationTaxClass extends BaseModel
 {
     const MODEL_NAME = 'localisation/tax_class';
-    
+    const IS_ADMIN = true;
 }
 

@@ -21,6 +21,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentCardinity extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/cardinity';
-    
+    const IS_ADMIN = true;
 }
 

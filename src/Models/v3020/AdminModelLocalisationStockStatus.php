@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelLocalisationStockStatus extends BaseModel
 {
     const MODEL_NAME = 'localisation/stock_status';
-    
+    const IS_ADMIN = true;
 }
 

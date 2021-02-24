@@ -34,6 +34,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentLaybuy extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/laybuy';
-    
+    const IS_ADMIN = true;
 }
 

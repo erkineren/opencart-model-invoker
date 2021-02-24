@@ -22,6 +22,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelLocalisationGeoZone extends BaseModel
 {
     const MODEL_NAME = 'localisation/geo_zone';
-    
+    const IS_ADMIN = true;
 }
 

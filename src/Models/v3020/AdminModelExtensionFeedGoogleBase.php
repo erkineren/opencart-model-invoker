@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionFeedGoogleBase extends BaseModel
 {
     const MODEL_NAME = 'extension/feed/google_base';
-    
+    const IS_ADMIN = true;
 }
 

@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelLocalisationWeightClass extends BaseModel
 {
     const MODEL_NAME = 'localisation/weight_class';
-    
+    const IS_ADMIN = true;
 }
 

@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionDashboardChart extends BaseModel
 {
     const MODEL_NAME = 'extension/dashboard/chart';
-    
+    const IS_ADMIN = true;
 }
 

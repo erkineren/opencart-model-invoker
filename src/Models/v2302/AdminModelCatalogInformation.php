@@ -22,6 +22,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelCatalogInformation extends BaseModel
 {
     const MODEL_NAME = 'catalog/information';
-    
+    const IS_ADMIN = true;
 }
 

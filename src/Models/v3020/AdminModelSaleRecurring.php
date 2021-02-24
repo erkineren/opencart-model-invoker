@@ -16,6 +16,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelSaleRecurring extends BaseModel
 {
     const MODEL_NAME = 'sale/recurring';
-    
+    const IS_ADMIN = true;
 }
 

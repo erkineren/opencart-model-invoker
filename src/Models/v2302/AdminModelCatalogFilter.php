@@ -22,6 +22,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelCatalogFilter extends BaseModel
 {
     const MODEL_NAME = 'catalog/filter';
-    
+    const IS_ADMIN = true;
 }
 

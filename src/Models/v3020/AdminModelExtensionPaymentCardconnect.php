@@ -23,6 +23,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentCardconnect extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/cardconnect';
-    
+    const IS_ADMIN = true;
 }
 

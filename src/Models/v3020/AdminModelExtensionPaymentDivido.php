@@ -16,6 +16,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentDivido extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/divido';
-    
+    const IS_ADMIN = true;
 }
 

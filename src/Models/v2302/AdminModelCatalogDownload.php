@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelCatalogDownload extends BaseModel
 {
     const MODEL_NAME = 'catalog/download';
-    
+    const IS_ADMIN = true;
 }
 

@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelCatalogAttributeGroup extends BaseModel
 {
     const MODEL_NAME = 'catalog/attribute_group';
-    
+    const IS_ADMIN = true;
 }
 

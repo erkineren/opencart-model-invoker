@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelDesignBanner extends BaseModel
 {
     const MODEL_NAME = 'design/banner';
-    
+    const IS_ADMIN = true;
 }
 

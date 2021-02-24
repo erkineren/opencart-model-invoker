@@ -20,6 +20,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelDesignSeoUrl extends BaseModel
 {
     const MODEL_NAME = 'design/seo_url';
-    
+    const IS_ADMIN = true;
 }
 

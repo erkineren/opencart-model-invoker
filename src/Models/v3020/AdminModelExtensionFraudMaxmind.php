@@ -15,6 +15,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionFraudMaxmind extends BaseModel
 {
     const MODEL_NAME = 'extension/fraud/maxmind';
-    
+    const IS_ADMIN = true;
 }
 

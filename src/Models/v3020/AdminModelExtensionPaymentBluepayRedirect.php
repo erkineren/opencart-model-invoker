@@ -28,6 +28,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentBluepayRedirect extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/bluepay_redirect';
-    
+    const IS_ADMIN = true;
 }
 

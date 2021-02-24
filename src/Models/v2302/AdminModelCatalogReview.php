@@ -19,6 +19,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelCatalogReview extends BaseModel
 {
     const MODEL_NAME = 'catalog/review';
-    
+    const IS_ADMIN = true;
 }
 

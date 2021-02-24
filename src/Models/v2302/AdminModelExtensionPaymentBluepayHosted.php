@@ -28,6 +28,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelExtensionPaymentBluepayHosted extends BaseModel
 {
     const MODEL_NAME = 'extension/payment/bluepay_hosted';
-    
+    const IS_ADMIN = true;
 }
 

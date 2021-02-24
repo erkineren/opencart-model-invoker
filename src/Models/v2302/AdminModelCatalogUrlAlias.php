@@ -13,6 +13,6 @@ use OpencartApi\Base\BaseModel;
 class AdminModelCatalogUrlAlias extends BaseModel
 {
     const MODEL_NAME = 'catalog/url_alias';
-    
+    const IS_ADMIN = true;
 }
 
